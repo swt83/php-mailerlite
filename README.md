@@ -23,7 +23,7 @@ try
 }
 catch (\Exception $e)
 {
-	xx($e->getMessage());
+	echo $e->getMessage();
 }
 ```
 
